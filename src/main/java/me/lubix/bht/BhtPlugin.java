@@ -15,14 +15,6 @@ public class BhtPlugin extends Plugin {
         //creating and registering a new module
         final BhtModule bhtModule = new BhtModule();
         RusherHackAPI.getModuleManager().registerFeature(bhtModule);
-
-        //creating and registering a new hud element
-        final ExampleHudElement exampleHudElement = new ExampleHudElement();
-        RusherHackAPI.getHudManager().registerFeature(exampleHudElement);
-
-        //creating and registering a new command
-        final ExampleCommand exampleCommand = new ExampleCommand();
-        RusherHackAPI.getCommandManager().registerFeature(exampleCommand);
     }
 
     @Override

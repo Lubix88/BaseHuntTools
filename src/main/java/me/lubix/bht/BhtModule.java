@@ -47,12 +47,6 @@ public class BhtModule extends ToggleableModule {
 				this.PlayerActitity
 		);
 	}
-
-
-	@Subscribe
-	private void onPlayerActitity() {
-
-	}
 	
 	@Override
 	public void onEnable() {
